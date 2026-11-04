@@ -16,5 +16,10 @@ namespace ComputerShop_Team6
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Welcome to Computer Shop Team 6!");
+        }
     }
 }
